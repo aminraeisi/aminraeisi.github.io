@@ -75,12 +75,16 @@ p.lead {
   background-color: #BD5D38;
 }
 
-.dev-icons {
-  font-size: 3rem;
+.dev-icons .list-inline-item svg {
+  height: 50px;
 }
 
-.dev-icons .list-inline-item i:hover {
+.dev-icons .list-inline-item svg:hover {
   color: #BD5D38;
+}
+
+.project-thumbnail {
+  width: 140px;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -157,13 +161,14 @@ section.resume-section {
 
 section.resume-section .resume-item .resume-date {
   min-width: none;
+  font-size: initial;
 }
 
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
   }
-  section.resume-section .resume-item .resume-date {
+  section.resume-section .resume-item {
     min-width: 18rem;
   }
 }

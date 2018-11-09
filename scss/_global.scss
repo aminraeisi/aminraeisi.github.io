@@ -71,10 +71,14 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
-  .list-inline-item i {
+  .list-inline-item svg {
+      height: 50px;
     &:hover {
       color: $primary;
     }
   }
+}
+
+.project-thumbnail{
+    width: 140px;
 }
